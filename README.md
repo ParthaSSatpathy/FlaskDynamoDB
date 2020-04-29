@@ -10,3 +10,4 @@ Follow similar steps as in the course and add below ones:
     - cd to FlaskDynamoDB folder and create a virtual environment: `virtualenv -p python3 venv` and then `source venv/bin/activate` to activate virtual env
     - Install Packages: `pip install -r requirements.txt`
     - Start the server: `python3 app.py`
+    - Default region is `us-east-1`, if you need to change it, you can change it in the `app.py` file `Line 5`
