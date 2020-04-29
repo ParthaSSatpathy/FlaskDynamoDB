@@ -2,7 +2,7 @@
 An example of Python Flask and DynamoDB
 
 ## Steps to follow
-Follow similar steps as in the course and add below ones:
+Follow similar steps as in the course(without the php part) and add below ones:
 1. EC2:
     - While creating EC2, make sure to update or add security group to have the port 5000 open
     - install Python3: `sudo yum install python36 python36-pip`
