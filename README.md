@@ -6,6 +6,7 @@ Follow similar steps as in the course and add below ones:
 1. EC2:
     - While creating EC2, make sure to update or add security group to have the port 5000 open
     - install Python3: `sudo yum install python36 python36-pip`
+    - Install gihub: `sudo yum install github`
     - clone the git folder: `git clone https://github.com/ParthaSSatpathy/FlaskDynamoDB.git`
     - cd to FlaskDynamoDB folder and create a virtual environment: `virtualenv -p python3 venv` and then `source venv/bin/activate` to activate virtual env
     - Install Packages: `pip install -r requirements.txt`
