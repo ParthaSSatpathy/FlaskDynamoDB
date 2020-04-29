@@ -1,2 +1,11 @@
 # FlaskDynamoDB
-Python Flask and DynamoDB
+An example of Python Flask and DynamoDB
+
+## Steps to follow
+Follow similar steps as in the course and add below ones:
+1. EC2:
+    - While creating EC2, make sure to update or add security groupo to have the port 5000 open
+    - install Python3: `sudo yum install python34 python34-pip`
+    - cd to FLASKDYNAMODB folder and create a virtual environment: `virtualenv -p python3 venv` and then `source venv/bin/activate` to activate virtual env
+    - Install Packages: `pip install -r requirements.txt`
+    - Start the server: `python3 app.py`
